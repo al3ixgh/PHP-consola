@@ -1,10 +1,16 @@
+.fondo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
 .contenedor{
     background-color: blue;
     width: 82mm;
     height: 144.5mm;
     display: grid;
     grid-template-rows: 48% 4% 48%;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .pantalla{
