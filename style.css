@@ -1,8 +1,13 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .fondo{
     margin-top: 50px;
     display: flex;
     justify-content: center;
-
 }
 .contenedor{
     background-color: blue;
@@ -12,8 +17,15 @@
     grid-template-rows: 48% 4% 48%;
     border-radius: 20px;
 }
-
+.pantalla-ext{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 15px;
+}
 .pantalla{
+    width: 85%;
+    height: 85%;
     background:linear-gradient(180deg, rgb(50, 20, 220),rgb(253, 253, 253, 0.6));
     margin: 20px 15px;
     display: flex;
@@ -23,8 +35,8 @@
 }
 
 .pantalla img{
-    width: 100px;
-    height: 40px;
+    width: 150px;
+    height: 35px;
 
 }
 .controlador{
