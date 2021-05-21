@@ -33,20 +33,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
-
 .pantalla img{
     width: 150px;
     height: 35px;
-
 }
 .controlador{
     margin: 20px;
     margin-bottom: 0px;
-
 }
-
 .movimiento{
     width: 25mm;
     height: 25mm;
@@ -57,12 +52,10 @@ body{
     grid-template-columns: auto auto auto;
     grid-template-columns: auto auto auto;
 }
-
 .flecha{
     background-color: black;
     border-radius: 5px;
 }
-
 .luz{
     width: 2mm;
     height: 2mm;
@@ -72,13 +65,11 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-
 .botones-centrales{
     display: grid;
     grid-template-columns: auto auto;
     display: flex
 }
-
 .accion{
     margin-right: 0px;
 
@@ -91,8 +82,6 @@ body{
     grid-template-rows: auto auto;
     text-align: center;
 }
-
-
 .menu{
     margin-top: 30px;
     height: 30px;
@@ -103,7 +92,6 @@ body{
     justify-content: center;
     font-size: 12px;
     text-align: center;
-
 }
 .select{
     width: 3mm;
@@ -115,9 +103,7 @@ body{
     border-width: 4px;
     border-color: rgb(12, 12, 148);
 }
-
 .start{
-    
     width: 3mm;
     height: 3mm;
     border-radius: 50%;
@@ -135,7 +121,6 @@ body{
     padding-bottom: auto;
     display: flex;
     align-items: center;
-
 }
 
 .boton-texto{
@@ -143,26 +128,22 @@ body{
     margin-right: auto;
     text-align: center;
 }
-
 .encaje{
     display: flex;
     background-color: rgb(9, 9, 94);
 }
-
 .extremo-izq{
     height: 100%;
     width: 5%;
     background-color: black;
     border-radius: 24px 0 0 24px;
 }
-
 .centro{
     height: 100%;
     width: 90%;
     border-left: solid;
     border-right: solid;
 }
-
 .extremo-der{
     height: 100%;
     width: 5%;
