@@ -22,6 +22,8 @@ body{
     justify-content: center;
     background-color: black;
     margin: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
 }
 .pantalla{
     width: 85%;
@@ -99,7 +101,7 @@ body{
     grid-template-rows: auto auto;
     gap: 5px;
     justify-content: center;
-    font-size: 15;
+    font-size: 12px;
     text-align: center;
 
 }
